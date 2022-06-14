@@ -259,7 +259,7 @@ void loop() {
       display.setCursor(55, 30);        // position to display
       display.println(6-sec);
       display.display();
-      RGB_color(255, 255, 0);
+      RGB_color(255, 255, 0); 
       delay(500);
       RGB_color(0, 0, 0);
       delay(50);
